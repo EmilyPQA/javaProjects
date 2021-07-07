@@ -14,6 +14,14 @@ public class Garage {
 		this.listOfVehicles.remove(vehicle);
 	}
 
+	public int CalculatePrice() {
+		int price = 0;
+		for (Vehicle vehicle : listOfVehicles)
+			;
+
+		return price;
+	}
+
 //	public int findById(int id) {
 //		Object vehicles;
 //		for (int i = 0; i < vehicles.length; i++) {

@@ -61,17 +61,17 @@ public class Vehicle {
 
 	public void print() {
 		System.out.print("ID: ");
-		System.out.print(this.id);
-		System.out.print(", Engine size: ");
-		System.out.print(this.engineSize);
-		System.out.print(", Colour: ");
+		System.out.println(this.id);
+		System.out.print("Engine size: ");
+		System.out.println(this.engineSize);
+		System.out.print("Colour: ");
 		System.out.println(this.colour);
-		System.out.print(", Make: ");
+		System.out.print("Make: ");
 		System.out.println(this.make);
 	}
 
 	public int getId() {
 
-		return 0;
+		return id;
 	}
 }
